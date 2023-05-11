@@ -1,6 +1,6 @@
 import React from "react"
 import { useRoutes } from "react-router-dom"
-import { UserLayoutRouter } from "@/routes/modules/Layout"
+import { UserLayoutRouter } from "./modules/Layout"
 export const rootRouter = [...UserLayoutRouter]
 // console.log(rootRouter)
 const Router = () => {
